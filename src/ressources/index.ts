@@ -1,9 +1,9 @@
-import * as bar from './bar/index.js'
-import * as foo from './foo/index.js'
-import * as doit from './doit'
+import * as bar from './bar'
+import * as foo from './foo'
+import * as blo from './blo'
 
 export {
     bar,
     foo,
-    doit
+    blo
 }

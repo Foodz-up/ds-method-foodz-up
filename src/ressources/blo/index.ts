@@ -8,6 +8,6 @@ function mamacita(): Promise<any> {
   return axios.get('http://localhost:8000')
 }
 
-export { sayHelloTo, mamacita}
+export { sayHelloTo, mamacita }
 
 

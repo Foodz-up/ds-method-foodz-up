@@ -1,11 +1,13 @@
 {
   "name": "ds-method-foodz-up",
-  "version": "0.0.25",
+  "version": "0.0.35",
   "description": "Making gateway between front and back",
-  "main": "dist/ressources/index.js",
-  "types": "dist/ressources/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "dist/ressources"
+    "dist/*",
+    "index.d.ts",
+    "src/*"
   ],
   "scripts": {
     "build": "tsc",
